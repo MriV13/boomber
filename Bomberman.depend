@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1463500915 source:c:\users\mriv\documents\boomber_1\main.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<cmath>
+	<string>
+	<fstream>
+	<iostream>
+
+1481037236 source:c:\users\mriv\desktop\c++ cb\boomber_1\main.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_opengl.h>
+	<cmath>
+	<cstdio>
+	<string>
+	<fstream>
+	<iostream>
+	<audiere.h>
+
+1480522549 source:c:\users\mriv\desktop\c++ cb\boomber_1\resource.rc
+

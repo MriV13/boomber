@@ -1,0 +1,12 @@
+50
+255
+50
+default color
+0
+155
+0
+border color
+0
+205
+0
+hover color

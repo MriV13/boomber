@@ -1,0 +1,39 @@
+for(int i=1;i<=level_count;i++)
+
+        {
+        if(!check_level(chapter, i))break;
+        int px=i*(screen_w/11);
+
+
+//px (10) 1700 sie konczy
+
+
+  if(myszka.x>px && myszka.x<px+100 && myszka.y>250 && myszka.y<350)
+        {
+    if(i+(chapter-1)*10> progress) al_draw_rounded_rectangle( px,250,px+100,250+100,12,12,al_map_rgb(45,45,250),5);
+   else if(i+(chapter-1)*10==progress)al_draw_rounded_rectangle( px,250,px+100,250+100,12,12,al_map_rgb(250,50,15),5);
+   else                               al_draw_rounded_rectangle( px,250,px+100,250+100,12,12,al_map_rgb(50,115,5),5);
+        }
+         if(px<screen_w-screen_w/11)
+    {
+        if(i+(chapter-1)*10> progress)al_draw_bitmap(butt1, px, 250 ,0);
+        else if(i+(chapter-1)*10==progress)al_draw_bitmap(butt2, px, 250 ,0);                     //Pierwszy rz¹d
+        else al_draw_bitmap(butt3, px, 250 ,0);
+
+        if(i+10+(chapter-1)*10> progress)al_draw_bitmap(butt1, px, 500 ,0);
+        else if(i+10+(chapter-1)*10==progress)al_draw_bitmap(butt2, px, 500 ,0);                  //Drugi rz¹d
+        else al_draw_bitmap(butt3, px, 500 ,0);
+
+        if(i+20+(chapter-1)*10> progress)al_draw_bitmap(butt1, px, 750 ,0);
+        else if(i+20+(chapter-1)*10==progress)al_draw_bitmap(butt2, px, 750 ,0);                  //Trzeci rz¹d
+        else al_draw_bitmap(butt3, px, 750 ,0);
+
+    }
+
+
+
+        al_draw_textf(font8,al_map_rgb(255,255,0), 50, 50 , 0,"x=%d", myszka.x);
+  al_draw_textf(font8,al_map_rgb(255,255,0), 50, 100 , 0,"y=%d", myszka.y);
+  al_draw_textf(font8,al_map_rgb(255,255,0), 50, 150 , 0,"rownanie=%d", 5+(chapter-1)*30);
+
+        }

@@ -1,0 +1,18 @@
+typ 1: blok do zniszczenia              ---
+typ 2: niebieska			---
+typ 3: czerwona				
+typ 4: mrozoca                          ---
+typ 5: czarna				---
+typ 6:zolta				---
+typ 7: pomaranczowa
+typ 8:fioletowa				---
+typ 9: atom				---
+typ 10: brazowa
+typ 11:mala bombka			---
+typ 12:dzwi                             ---
+typ 13:mina czerw 			---
+typ 14:mina zolta 		 tykanie---
+typ 15:
+typ 16: rozowa
+typ 17:
+typ 18:
