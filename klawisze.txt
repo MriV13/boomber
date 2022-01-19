@@ -1,0 +1,21 @@
+1-27 litery
+
+PAD_0 37
+PAD_9 46
+
+63 BACKSPACE
+64 TAB
+67 ENTER
+75 space
+
+82 left
+83 right
+84 up
+85 down
+
+215 LSHIFT
+216 RSHIFT
+217 LCTRL
+218 RCTRL
+219 ALT
+220 ALTGR (right)
